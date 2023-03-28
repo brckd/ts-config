@@ -19,7 +19,7 @@
   "main": "tsconfig.json",
   "scripts": {
     "format": "npx sort-package-json && npx prettier --write .",
-    "prepare": "husky install"
+    "prepare": "npx husky install"
   },
   "commitlint": {
     "extends": [
