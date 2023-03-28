@@ -4,7 +4,9 @@
   "private": false,
   "description": "Shared typescript configuration for my projects.",
   "keywords": [
-    "ts-config"
+    "typescript",
+    "config",
+    "tsconfig"
   ],
   "homepage": "https://github.com/brycked/ts-config#readme",
   "bugs": {
