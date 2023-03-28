@@ -1,5 +1,7 @@
 {
-  "name": "@brycked/ts-config",
+  "name": "@bricked/ts-config",
+  "version": "1.0.0",
+  "private": false,
   "description": "Shared typescript configuration for my projects.",
   "keywords": [
     "ts-config"
@@ -15,7 +17,6 @@
   "license": "MIT",
   "author": "Bricked",
   "main": "tsconfig.json",
-  "private": false,
   "scripts": {
     "format": "npx sort-package-json && npx prettier --write .",
     "prepare": "husky install"
@@ -74,7 +75,6 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^17.4.4",
     "commitlint": "^17.5.1",
-    "husky": "^8.0.3",
     "prettier": "^2.8.7",
     "sort-package-json": "^2.4.1",
     "typescript": "^5.0.2"
