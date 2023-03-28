@@ -15,6 +15,7 @@
   "license": "MIT",
   "author": "Bricked",
   "main": "tsconfig.json",
+  "private": false,
   "scripts": {
     "format": "npx sort-package-json && npx prettier --write .",
     "prepare": "husky install"
