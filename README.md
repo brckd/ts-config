@@ -16,4 +16,12 @@ pnpm add @bricked/ts-config
 
 ## Usage
 
-`ts-config` can be used as shared typescript configuration for my projects.
+You can use [`tsconfig.json`](./tsconfig.json) by extending it in yours:
+
+```json
+{
+  "extends": "@bricked/ts-config"
+}
+```
+
+This is a config suited for nearly all projects, but you may extend it with your own config options.
