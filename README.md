@@ -57,3 +57,35 @@ It's recommended to use one of the platform specific configs:
 ```
 
 This will add additional typings for the specified platform. Additionally it can alter the behaviour of for example global variables.
+
+## Feature Specific Config
+
+You may add feature specific configs to enable / enforce certain features:
+
+- enforce more strict rules using [`strict.json`](./strict.json):
+
+```json
+{
+  "extends": "@bricked/ts-config/strict"
+}
+```
+
+- enable experimental support for decorators using [`decorators.json`](./decorators.json)
+
+```json
+{
+  "extends": "@bricked/ts-config/decorators"
+}
+```
+
+Feature specific configs may be combined like this:
+
+```json
+{
+  "extends": [
+    "@bricked/ts-config/node",
+    "@bricked/ts-config/strict",
+    "@bricked/ts-config/decorators"
+  ]
+}
+```
