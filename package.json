@@ -1,16 +1,16 @@
 {
-  "name": "@brycked/ts-template",
-  "description": "A ts-template for my projects.",
+  "name": "@brycked/ts-config",
+  "description": "Shared typescript configuration for my projects.",
   "keywords": [
-    "ts-template"
+    "ts-config"
   ],
-  "homepage": "https://github.com/brycked/ts-template#readme",
+  "homepage": "https://github.com/brycked/ts-config#readme",
   "bugs": {
-    "url": "https://github.com/brycked/ts-template/issues"
+    "url": "https://github.com/brycked/ts-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brycked/ts-template.git"
+    "url": "git+https://github.com/brycked/ts-config.git"
   },
   "license": "MIT",
   "author": "Bricked",
@@ -55,7 +55,6 @@
         "prerelease": true
       }
     ],
-    "dryRun": true,
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
