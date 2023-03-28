@@ -14,12 +14,10 @@
   },
   "license": "MIT",
   "author": "Bricked",
-  "main": "dist/index.js",
+  "main": "tsconfig.json",
   "scripts": {
-    "build": "npx tsc",
-    "format": "npx sort-package-json && npx prettier --write . && npx eslint --fix --no-error-on-unmatched-pattern .",
-    "prepare": "husky install",
-    "watch": "npx tsc -w"
+    "format": "npx sort-package-json && npx prettier --write .",
+    "prepare": "husky install"
   },
   "commitlint": {
     "extends": [
@@ -28,10 +26,6 @@
   },
   "lint-staged": {
     "!(*.ts|package.json)": "npx prettier --ignore-unknown --write",
-    "*.ts": [
-      "npx prettier --write",
-      "npx eslint --fix"
-    ],
     "package.json": [
       "npx sort-package-json",
       "npx prettier --write"
@@ -78,13 +72,7 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.4.4",
-    "@typescript-eslint/eslint-plugin": "^5.56.0",
     "commitlint": "^17.5.1",
-    "eslint": "^8.36.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.6.1",
-    "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.3",
     "prettier": "^2.8.7",
     "sort-package-json": "^2.4.1",
