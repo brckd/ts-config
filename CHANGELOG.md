@@ -1,10 +1,16 @@
-## [1.2.1](https://github.com/brycked/ts-config/compare/v1.2.0...v1.2.1) (2023-03-29)
+## [1.2.2](https://github.com/brycked/ts-config/compare/v1.2.1...v1.2.2) (2023-03-29)
 
 
 ### Bug Fixes
 
-* **dom:** unset `moduleResolution` ([992b617](https://github.com/brycked/ts-config/commit/992b617b000d46e7e6a0c53b177d096cae66622d))
-* **node:** exclude `dom` lib ([a96e5e6](https://github.com/brycked/ts-config/commit/a96e5e6120d976e202a29889986444d10feaf0e7))
+* **bundler:** set module to `node16` ([fc5b8b9](https://github.com/brycked/ts-config/commit/fc5b8b946421bad8e6491b0baa5e238830ed3b10))
+
+## [1.2.1](https://github.com/brycked/ts-config/compare/v1.2.0...v1.2.1) (2023-03-29)
+
+### Bug Fixes
+
+- **dom:** unset `moduleResolution` ([992b617](https://github.com/brycked/ts-config/commit/992b617b000d46e7e6a0c53b177d096cae66622d))
+- **node:** exclude `dom` lib ([a96e5e6](https://github.com/brycked/ts-config/commit/a96e5e6120d976e202a29889986444d10feaf0e7))
 
 # [1.2.0](https://github.com/brycked/ts-config/compare/v1.1.0...v1.2.0) (2023-03-28)
 
