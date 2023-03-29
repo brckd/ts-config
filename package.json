@@ -37,36 +37,11 @@
   },
   "prettier": "@bricked/prettier-config",
   "release": {
-    "branches": [
-      "main",
-      {
-        "name": "beta",
-        "prerelease": true
-      }
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/changelog",
-        {
-          "changelogFile": "CHANGELOG.md"
-        }
-      ],
-      "@semantic-release/npm",
-      "@semantic-release/github",
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "CHANGELOG.md"
-          ]
-        }
-      ]
-    ]
+    "extends": "@bricked/semantic-release-config"
   },
   "devDependencies": {
     "@bricked/prettier-config": "^1.0.0",
+    "@bricked/semantic-release-config": "^1.1.0",
     "@commitlint/config-conventional": "^17.4.4",
     "commitlint": "^17.5.1",
     "prettier": "^2.8.7",
