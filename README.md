@@ -9,9 +9,9 @@ Shared typescript configuration for my projects.
 ## Installation
 
 ```sh
-npm install @bricked/ts-config
-yarn add @bricked/ts-config
-pnpm add @bricked/ts-config
+npm install --save-dev @bricked/ts-config
+yarn add --save-dev @bricked/ts-config
+pnpm add --save-dev @bricked/ts-config
 ```
 
 ## Usage
