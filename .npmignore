@@ -3,6 +3,7 @@ node_modules/
 
 # build
 src/
+pack/
 tsconfig.tsbuildinfo
 
 # config
