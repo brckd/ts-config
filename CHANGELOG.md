@@ -1,9 +1,15 @@
-## [1.2.2](https://github.com/brycked/ts-config/compare/v1.2.1...v1.2.2) (2023-03-29)
+## [1.2.3](https://github.com/brycked/ts-config/compare/v1.2.2...v1.2.3) (2023-04-24)
 
 
 ### Bug Fixes
 
-* **bundler:** set module to `node16` ([fc5b8b9](https://github.com/brycked/ts-config/commit/fc5b8b946421bad8e6491b0baa5e238830ed3b10))
+* **tsconfig:** disable `incremental` ([c3efe1e](https://github.com/brycked/ts-config/commit/c3efe1e0c7c92117769f95445271a5a2c747e65d))
+
+## [1.2.2](https://github.com/brycked/ts-config/compare/v1.2.1...v1.2.2) (2023-03-29)
+
+### Bug Fixes
+
+- **bundler:** set module to `node16` ([fc5b8b9](https://github.com/brycked/ts-config/commit/fc5b8b946421bad8e6491b0baa5e238830ed3b10))
 
 ## [1.2.1](https://github.com/brycked/ts-config/compare/v1.2.0...v1.2.1) (2023-03-29)
 
